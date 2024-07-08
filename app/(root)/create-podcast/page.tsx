@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button"
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -34,7 +33,7 @@ import { useToast } from "@/components/ui/use-toast"
 import { useMutation } from "convex/react"
 import { api } from "@/convex/_generated/api"
 import { useRouter } from "next/navigation"
-import { createPodcast } from "@/convex/podcasts"
+
 
 const voiceCategories = ['alloy', 'shimmer', 'nova', 'echo', 'fable', 'onyx'];
 
